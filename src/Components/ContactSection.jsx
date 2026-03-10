@@ -71,6 +71,7 @@ export default function ContactSection() {
                     transition={{ duration: 1, delay: 0.5 }}
                     className="mt-24 pt-8 border-t border-white/10 flex items-center justify-between"
                 >
+                    <div></div>
                     <p className="text-white/30 text-xs">
                         © {new Date().getFullYear()} · All rights reserved
                     </p>
