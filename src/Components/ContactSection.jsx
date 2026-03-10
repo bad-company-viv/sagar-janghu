@@ -69,11 +69,38 @@ export default function ContactSection() {
                     initial={{ opacity: 0 }}
                     animate={isInView ? { opacity: 1 } : {}}
                     transition={{ duration: 1, delay: 0.5 }}
-                    className="mt-24 pt-8 border-t border-white/10 flex items-center justify-center"
+                    className="mt-24 pt-8 border-t border-white/10 flex items-center justify-between"
                 >
                     <p className="text-white/30 text-xs">
                         © {new Date().getFullYear()} · All rights reserved
                     </p>
+                    <div className="flex items-center bg-white rounded-full px-6 py-3 shadow-sm">
+                        <a 
+                            href="https://fabulousmedia.in" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="transition-transform hover:scale-105"
+                        >
+                            <img 
+                                src="/sitecredits/fabulous.png" 
+                                alt="Fabulous Media" 
+                                className="h-6 w-auto"
+                            />
+                        </a>
+                        <div className="w-px h-6 bg-gray-300 mx-3"></div>
+                        <a 
+                            href="https://gocommercially.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="transition-transform hover:scale-105"
+                        >
+                            <img 
+                                src="/sitecredits/gocomercially.svg" 
+                                alt="Go Commercially" 
+                                className="h-6 w-auto"
+                            />
+                        </a>
+                    </div>
                 </motion.div>
             </div>
         </section>
