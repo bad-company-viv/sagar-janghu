@@ -75,30 +75,39 @@ export default function ContactSection() {
                     <p className="text-white/30 text-xs">
                         © {new Date().getFullYear()} · All rights reserved
                     </p>
-                    <div className="flex items-center bg-white rounded-full px-6 py-3 shadow-sm">
-                        <a 
-                            href="https://fabulousmedia.in" 
-                            target="_blank" 
+                    {/* Credit Section */}
+                    <div className="inline-flex items-center gap-1.5 rounded-md px-2 py-1 border border-white/30 bg-white/15 shadow-sm hover:shadow-md hover:bg-white/20 transition-all duration-300">
+                        <a
+                            href="https://fabulousmedia.in"
+                            target="_blank"
                             rel="noopener noreferrer"
-                            className="transition-transform hover:scale-105"
+                            className="rounded p-0.5 opacity-90 hover:opacity-100 transition-opacity flex items-center justify-center hover:scale-110 transition-transform"
+                            aria-label="FabulousMedia"
                         >
-                            <img 
-                                src="/sitecredits/fabulous.png" 
-                                alt="Fabulous Media" 
-                                className="h-6 w-auto"
+                            <img
+                                src="https://play.fabulousmedia.in/sitecredit/images/fabulousmedia.svg"
+                                alt="FabulousMedia"
+                                className="h-3 w-auto"
+                                loading="lazy"
+                                width="80"
+                                height="12"
                             />
                         </a>
-                        <div className="w-px h-6 bg-gray-300 mx-3"></div>
-                        <a 
-                            href="https://gocommercially.com" 
-                            target="_blank" 
+                        <div className="h-3 w-px bg-white/30 transition-colors duration-300"></div>
+                        <a
+                            href="https://gocommercially.com"
+                            target="_blank"
                             rel="noopener noreferrer"
-                            className="transition-transform hover:scale-105"
+                            className="rounded p-0.5 opacity-90 hover:opacity-100 transition-opacity flex items-center justify-center hover:scale-110 transition-transform"
+                            aria-label="GoCommercially"
                         >
-                            <img 
-                                src="/sitecredits/gocomercially.svg" 
-                                alt="Go Commercially" 
-                                className="h-6 w-auto"
+                            <img
+                                src="https://play.fabulousmedia.in/sitecredit/images/gocommercially.svg"
+                                alt="GoCommercially"
+                                className="h-3 w-auto"
+                                loading="lazy"
+                                width="80"
+                                height="12"
                             />
                         </a>
                     </div>

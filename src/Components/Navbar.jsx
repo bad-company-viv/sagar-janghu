@@ -40,7 +40,7 @@ export default function Navbar() {
                 <a
                     href="#"
                     onClick={(e) => handleNavClick(e, "body")}
-                    className="text-[#1C1C1C] font-semibold text-lg tracking-tight"
+                    className="text-[#1C1C1C] font-semibold text-6xl tracking-tight"
                 >
                     SJ
                 </a>
