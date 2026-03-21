@@ -8,6 +8,7 @@ const timeline = [
         org: "J.P. Morgan",
         location: "Mumbai",
         desc: "Worked on real estate transactions, financial modeling, and valuation assignments. Gained deep exposure to real estate capital markets and deal structuring.",
+        logo: "/jp-morgan.svg",
     },
     {
         period: "Current",

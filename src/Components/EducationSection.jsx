@@ -5,10 +5,17 @@ import { GraduationCap, Award, Users } from "lucide-react";
 const credentials = [
     {
         icon: GraduationCap,
+        org: "Netaji Subhas Institute of Technology (NSIT)",
+        location: "India",
+        credential: "Bachelor of Engineering",
+        desc: "Bachelor's degree in Engineering from one of India's top-ranked technical institutes.",
+    },
+    {
+        icon: GraduationCap,
         org: "ESADE Business School",
         location: "Barcelona",
         credential: "MBA",
-        desc: "Master of Business Administration from one of Europe's leading business schools.",
+        desc: "Master of Business Administration from one of the world's best business schools.",
     },
     {
         icon: Award,
@@ -57,7 +64,7 @@ export default function EducationSection() {
                     </h2>
                 </motion.div>
 
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {credentials.map((c, i) => {
                         const Icon = c.icon;
                         return (

@@ -6,6 +6,7 @@ import EducationSection from "@/Components/EducationSection";
 import ContactSection from "@/Components/ContactSection";
 import InterestsSection from "@/Components/InterestsSection";
 import LeadershipSection from "@/Components/LeadershipSection";
+import VideosSection from "@/Components/VideosSection";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <EducationSection />
             <LeadershipSection />
             <InterestsSection />
+            <VideosSection />
             <ContactSection />
         </>
     );

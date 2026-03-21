@@ -54,7 +54,7 @@ export default function ContactSection() {
                     </a>
 
                     <a
-                        href="https://www.instagram.com/propertytalkswith_sagarjanghu/"
+                        href="https://www.instagram.com/anantham.projects/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group flex items-center gap-3 px-8 py-4 border border-white/20 text-white font-semibold text-sm rounded-full hover:bg-white/10 transition-colors duration-300"

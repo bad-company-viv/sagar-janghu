@@ -72,17 +72,14 @@ export default function HeroSection() {
                             variants={fadeUp}
                             className="text-[#888] text-sm font-medium tracking-widest uppercase mb-8 border-l-2 border-[#1C2B4A] pl-4"
                         >
-                            Managing Partner · Real Estate Developer · Investment & Finance
+                            Real Estate Developer · Investment & Finance
                         </motion.p>
 
                         <motion.p
                             variants={fadeUp}
                             className="text-[#555] text-base md:text-lg leading-relaxed max-w-lg mb-10"
                         >
-                            A real estate developer and investment professional with experience spanning finance,
-                            development, and construction across the real estate lifecycle. MBA from ESADE Business
-                            School and CFA Charterholder, bringing institutional expertise to premium real estate
-                            development in India.
+                            A real estate developer and investment professional with experience spanning finance, Real Estate Development, and construction across the real estate lifecycle. MBA from ESADE Business School and CFA Charterholder, bringing institutional expertise to premium real estate development in India. Serving as Joint Secretary of the Gurugram Home Developers Association (GHDA), advocating for industry growth and policy reforms.
                         </motion.p>
 
                         <motion.div variants={fadeUp} className="flex flex-wrap gap-4">

@@ -22,11 +22,15 @@ export default function LeadershipSection() {
                             Community &{" "}
                             <span className="font-semibold">Leadership</span>
                         </h2>
-                        <p className="text-[#666] text-base md:text-lg leading-relaxed">
+                        <p className="text-[#666] text-base md:text-lg leading-relaxed mb-8">
                             Sagar serves as a{" "}
                             <span className="font-semibold text-[#1C1C1C]">Board Member</span> of the ESADE
                             Alumni Delhi Chapter, contributing to the alumni network and fostering collaboration
                             among professionals across India.
+                        </p>
+                        <p className="text-[#666] text-base md:text-lg leading-relaxed">
+                            As{" "}
+                            <span className="font-semibold text-[#1C1C1C]">Joint Secretary</span> of the Gurugram Home Developers Association (GHDA), Sagar represents small and mid-level real estate developers in policy advocacy, engaging with government authorities on regulations, compliance, and development issues affecting the local real estate ecosystem.
                         </p>
                     </motion.div>
 
@@ -34,18 +38,36 @@ export default function LeadershipSection() {
                         initial={{ opacity: 0, x: 40 }}
                         animate={isInView ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                        whileHover={{ y: -4, transition: { duration: 0.3 } }}
-                        className="group p-8 bg-gradient-to-br from-[#1C2B4A] to-[#2a3d66] rounded-2xl text-white cursor-default"
+                        className="space-y-6"
                     >
-                        <Globe className="w-8 h-8 text-white/60 mb-6" />
-                        <p className="text-xs font-semibold tracking-widest uppercase text-white/50 mb-2">
-                            Board Member
-                        </p>
-                        <h3 className="text-xl font-semibold mb-3">ESADE Alumni — Delhi Chapter</h3>
-                        <p className="text-white/70 text-sm leading-relaxed">
-                            Contributing to one of the world's leading business school alumni networks, building
-                            meaningful professional connections across the Indian market.
-                        </p>
+                        <motion.div
+                            whileHover={{ y: -4, transition: { duration: 0.3 } }}
+                            className="group p-8 bg-gradient-to-br from-[#1C2B4A] to-[#2a3d66] rounded-2xl text-white cursor-default"
+                        >
+                            <Globe className="w-8 h-8 text-white/60 mb-6" />
+                            <p className="text-xs font-semibold tracking-widest uppercase text-white/50 mb-2">
+                                Board Member
+                            </p>
+                            <h3 className="text-xl font-semibold mb-3">ESADE Alumni — Delhi Chapter</h3>
+                            <p className="text-white/70 text-sm leading-relaxed">
+                                Contributing to one of the world's leading business school alumni networks, building
+                                meaningful professional connections across the Indian market.
+                            </p>
+                        </motion.div>
+
+                        <motion.div
+                            whileHover={{ y: -4, transition: { duration: 0.3 } }}
+                            className="group p-8 bg-gradient-to-br from-[#2a3d66] to-[#1C2B4A] rounded-2xl text-white cursor-default"
+                        >
+                            <Globe className="w-8 h-8 text-white/60 mb-6" />
+                            <p className="text-xs font-semibold tracking-widest uppercase text-white/50 mb-2">
+                                Joint Secretary
+                            </p>
+                            <h3 className="text-xl font-semibold mb-3">Gurugram Home Developers Association (GHDA)</h3>
+                            <p className="text-white/70 text-sm leading-relaxed">
+                                Representing small and mid-level real estate developers in Gurugram, advocating for policy reforms, and engaging with government authorities on regulations affecting builder floors, plotted developments, and residential projects.
+                            </p>
+                        </motion.div>
                     </motion.div>
                 </div>
             </div>
